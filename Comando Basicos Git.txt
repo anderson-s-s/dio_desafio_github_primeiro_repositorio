@@ -1,0 +1,10 @@
+#guia rapido de comando rapido do git#
+	**Git Add**
+Quando você usa?git add
+*git add README.md*
+À medida que você está trabalhando, você altera e salva um arquivo, ou vários arquivos. Então, antes de se comprometer, você deve. Esta etapa permite que você escolha o que você vai cometer. Compromissos devem ser lógicos, unidades atômicas de mudança - mas nem todos funcionam dessa maneira. Talvez você esteja fazendo alterações em arquivos que não são unidades lógicas ou atômicas de mudança. permite que você modele sistematicamente seus compromissos e sua história de qualquer maneira.
+
+1. *git add <path>:* Estágio de um diretório ou arquivo específico
+2. *git add .:* Estágio de todos os arquivos (que não estão listados no ) em todo o repositório.gitignore
+3. *git add -p:* Interativamente estágio hunks de mudanças
+Você pode ver todas opções em https://git-scm.com/docs/git-add
